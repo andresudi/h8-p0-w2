@@ -62,29 +62,22 @@ for (var a = 0; a < 100; a += 9) {
 } 
 
 console.log("------soal no.3.4------------------------------------"); 
-for (a=0; a<100 ; a+=2) {
-    if (a%3 === 0) {
-        console.log(a+ " KELIPATAN 3") 
-    }
-    else {
-        console.log(a)
-    }
-} 
 
-for (a = 0; a < 100; a += 5) {
+for (a = 1; a <= 100; a += 2) {
+    if (a % 3 === 0) {
+        console.log(a + " KELIPATAN 3")
+    }
+}
+for (a = 1; a <= 100; a += 5) {
     if (a % 6 === 0) {
         console.log(a + " KELIPATAN 6")
     }
-    else {
-        console.log(a)
-    }
-} 
 
-for (a = 0; a < 100; a += 9) {
+}
+
+for (a = 1; a <= 100; a += 9) {
     if (a % 10 === 0) {
         console.log(a + " KELIPATAN 10")
     }
-    else {
-        console.log(a)
-    } 
-}
+
+} 
